@@ -13,7 +13,7 @@ const screens = {
 }
 
 class App extends Component {
-  state = { screen: 'details' }
+  state = { screen: 'splash' }
 
   render() {
     const { screen } = this.state;
